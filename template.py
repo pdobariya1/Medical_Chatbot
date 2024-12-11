@@ -8,6 +8,7 @@ list_of_files = [
     "src/__init__.py",
     "src/helper.py",
     "src/prompt.py",
+    "src/QAgenerator.py"
     "setup.py",
     "research/experiment.ipynb",
     "app.py",
