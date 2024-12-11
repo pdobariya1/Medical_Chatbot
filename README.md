@@ -13,3 +13,7 @@ conda activate ./mvenv
 ```bash
 pip install -r requirements.txt
 ```
+
+### Download the Llama 3.1 Model from Nvidia
+
+https://build.nvidia.com/meta/llama-3_1-8b-instruct 

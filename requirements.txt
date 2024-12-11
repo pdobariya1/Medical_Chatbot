@@ -4,6 +4,8 @@ pinecone-client
 langchain
 langchain-community
 flask
+python-dotenv
+pypdf
 ipykernel
 langchain-huggingface
 langchain_nvidia_ai_endpoints
