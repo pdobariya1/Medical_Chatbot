@@ -40,4 +40,4 @@ llm = ChatNVIDIA(
 # Create Retrieval QA
 retriever = docsearch.as_retriever(search_kwargs={"k": 2})
 question_answer_chain = create_stuff_documents_chain(llm=llm, prompt=PROMPT)
-qa_chain = create_retrieval_chain(retriever=retriever, combine_docs_chain=question_answer_chain)
+rag_qa_chain = create_retrieval_chain(retriever=retriever, combine_docs_chain=question_answer_chain)
