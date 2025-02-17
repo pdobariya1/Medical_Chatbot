@@ -6,22 +6,32 @@ https://build.nvidia.com/meta/llama-3_1-8b-instruct
 
 ## Steps to run the project
 
-### 1. Create Virtual Environment
+### 1. **Clone this repository**
+```bash
+git clone https://github.com/pdobariya1/Medical_Chatbot.git
+```
+
+### 2. **Change directory**
+```bash
+cd Medical_Chatbot
+``` 
+
+### 3. Create Virtual Environment
 ```bash
 conda create -p mvenv python=3.9 -y
 ```
 
-### 2. Activate Environment
+### 4. Activate Environment
 ```bash
 conda activate ./mvenv
 ```
 
-### 3. Install Requirements
+### 5. Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Create Index
+### 6. Create Index
 - For Windows
 ```bash
 python store_index.py
@@ -31,7 +41,7 @@ python store_index.py
 python3 store_index.py
 ```
 
-### 5. If you have already index, run following command
+### 7. If you have already index, run following command
 - For Windows
 ```bash
 python app.py
